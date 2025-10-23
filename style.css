@@ -1,0 +1,45 @@
+body {
+font-family: Arial, sans-serif;
+background-color: #f0f0f0;
+text-align: center;
+}
+
+.urna {
+background-color: #fff;
+width: 400px;
+margin: 50px auto;
+padding: 20px;
+border: 2px solid #333;
+border-radius: 10px;
+}
+
+.tela input {
+font-size: 24px;
+width: 60px;
+text-align: center;
+}
+
+.botoes button {
+margin: 10px;
+padding: 10px 20px;
+font-size: 16px;
+cursor: pointer;
+}
+
+#info-candidato img {
+width: 100px;
+margin-top: 10px;
+}
+#btn-corrigir {
+    background-color: #ce430c;
+}
+#btn-confirmar {
+    background-color: rgb(22, 175, 30);
+}
+#btn-finalizar {
+    background-color: rgb(82, 162, 187);
+}
+
+#resultado-lista {
+    list-style-type: none;
+}

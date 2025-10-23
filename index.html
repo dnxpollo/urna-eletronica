@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Urna Eletrônica</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Urna Eletrônica</h1>
+
+  <div class="urna">
+    <label for="numero">Digite o número do candidato:</label>
+    <input type="text" id="numero" maxlength="2" oninput="atualizarCandidato()">
+
+    <div id="info-candidato" class="info"></div>
+
+    <div class="botoes">
+      <!-- <button onclick="votoBranco()" id="btn-branco">Branco</button> -->
+      <button onclick="corrigir()" id="btn-corrigir">Corrigir ❌</button>
+      <button onclick="confirmar()" id="btn-confirmar">Confirmar 👍</button> 
+      <!-- <button onclick="votoNulo()" id="btn-nulo">Nulo</button> -->
+      <button onclick="finalizarVotacao()" id="btn-finalizar">Finalizar Votação</button>
+    </div>
+
+    <p id="mensagem" class="mensagem"></p>
+  </div>
+
+<div class="resultado" id="resultado" style="display: none;">
+  <h2>Resultado da Votação</h2>
+  <ul id="resultado-lista"></ul>
+</div>
+
+  <audio id="som-confirmacao" src="sons/confirmacao.mp3"></audio>
+
+<script src="script.js"></script>
+</body>
+</html>
