@@ -4,6 +4,7 @@ Simulação de uma urna eletrônica feita com HTML, CSS e JavaScript. Permite ao
 
 ## 📦 Estrutura do Projeto
 
+```
 urna-educativa/
 ├── index.html
 ├── style.css
@@ -14,6 +15,7 @@ urna-educativa/
 │   └── ... (demais candidatos)
 └── sons/
     └── confirmacao.mp3
+```
 
 
 ## 🚀 Funcionalidades
