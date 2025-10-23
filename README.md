@@ -1,9 +1,10 @@
-# 🗳️ Urna Eletrônica
+# 🗳️ Urna Educativa
 
 Simulação de uma urna eletrônica feita com HTML, CSS e JavaScript. Permite ao usuário votar digitando o número do candidato, visualizar informações, confirmar o voto e encerrar a votação com exibição dos resultados.
 
 ## 📦 Estrutura do Projeto
 
+```
 urna-educativa/
 ├── index.html
 ├── style.css
@@ -14,6 +15,7 @@ urna-educativa/
 │   └── ... (demais candidatos)
 └── sons/
     └── confirmacao.mp3
+```
 
 
 ## 🚀 Funcionalidades
@@ -53,7 +55,7 @@ urna-educativa/
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/urna-eletronica.git
+   git clone https://github.com/seu-usuario/urna-educativa.git
 
 Abra o arquivo index.html em seu navegador.
 
@@ -72,5 +74,4 @@ JavaScript (Vanilla)
 Este projeto está licenciado sob a MIT License para o código-fonte.
 
 As imagens e sons incluídos estão sob a licença Creative Commons Attribution 4.0 International (CC BY 4.0).
-
 
