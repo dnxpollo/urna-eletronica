@@ -55,7 +55,7 @@ urna-educativa/
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/dnxpollo/urna-educativa.git
+   git clone https://github.com/dnxpollo/urna-eletronica.git
 
 Abra o arquivo index.html em seu navegador.
 
