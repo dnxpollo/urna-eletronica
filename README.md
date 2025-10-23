@@ -64,11 +64,12 @@ Digite o número do candidato e confirme o voto.
 Finalize a votação para ver os resultados.
 
 🔧 Tecnologias Utilizadas
-HTML5
 
-CSS3
+- HTML5
 
-JavaScript (Vanilla)
+- CSS3
+
+- JavaScript (Vanilla)
 
 📢 Licença
 Este projeto está licenciado sob a MIT License para o código-fonte.
